@@ -10,13 +10,13 @@ function initAutoUpdate() {
     return;
   }
 
-  autoUpdater.setFeedURL({
-    provider: 'github',
-    owner: 'bishop9910',
+  // autoUpdater.setFeedURL({
     //一定要添加仓库名口阿
     //记得把latest.yml也传上去
-    // repo: 'electron-app'
-  });
+    // provider: 'github',
+    // owner: 'bishop9910',
+    // repo: 'electron-vite-app'
+  // });
 
   autoUpdater.checkForUpdatesAndNotify();
 
