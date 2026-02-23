@@ -1,4 +1,4 @@
-# Galgame Management Application based on electron-vite-vue
+# electron-vite-app
 
 [![GitHub Build](https://github.com/bishop9910/electron-vite-app/actions/workflows/build.yml/badge.svg)](https://github.com/bishop9910/electron-vite-app/actions/workflows/build.yml)
 
