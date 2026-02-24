@@ -7,6 +7,8 @@ import { init } from "./scripts/ipc"
 import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 
+import './assets/style/base.css'
+
 createApp(App).mount('#app');
 init();
 postMessage({ payload: 'removeLoading' }, '*');
