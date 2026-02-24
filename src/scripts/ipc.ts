@@ -27,6 +27,10 @@ export async function getAppName() {
   return window.ipcRenderer.invoke("get-app-name");
 }
 
+export async function installUpdate() {
+  window.ipcRenderer.send('install-update');
+}
+
 export function getConfig(){
   return window.ipcRenderer.invoke("get-config");
 }

@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { onBeforeMount } from 'vue';
 import UpdateInfo from './components/UpdateInfo.vue';
-import { loadConfig } from './scripts/ipc';
+import { installUpdate, loadConfig } from './scripts/ipc';
 
 onBeforeMount(() => {
   loadConfig()
 })
 
 const handleInstallUpdate = () => {
-  window.ipcRenderer.send('install-update');
+  installUpdate()
 };
 </script>
 
